@@ -1,0 +1,27 @@
+1665238277913	geckodriver	INFO	Listening on 127.0.0.1:60634
+1665238280975	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60635" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilesw0vbP"
+1665238281280	Marionette	INFO	Marionette enabled
+1665238281285	Marionette	INFO	Listening on port 60645
+Read port: 60645
+WebDriver BiDi listening on ws://127.0.0.1:60635
+1665238281378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilesw0vbP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60635/devtools/browser/444a318e-08c6-4ac4-ac57-dfe795692e22
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1665238307973	Marionette	INFO	Stopped listening on port 60645
+[Parent 12244, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1665238319645	geckodriver	INFO	Listening on 127.0.0.1:60865
+1665238322686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60866" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofileBrbyuP"
+1665238323126	Marionette	INFO	Marionette enabled
+1665238323134	Marionette	INFO	Listening on port 60876
+Read port: 60876
+WebDriver BiDi listening on ws://127.0.0.1:60866
+1665238323351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofileBrbyuP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60866/devtools/browser/c4c4f610-6837-4a8f-adf8-b68e4cb11968
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1665238353954	Marionette	INFO	Stopped listening on port 60876

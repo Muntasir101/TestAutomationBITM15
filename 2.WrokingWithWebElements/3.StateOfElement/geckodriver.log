@@ -1,0 +1,32 @@
+1665237586510	geckodriver	INFO	Listening on 127.0.0.1:60006
+1665237589571	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilegPnqjf"
+1665237589873	Marionette	INFO	Marionette enabled
+1665237589877	Marionette	INFO	Listening on port 60018
+Read port: 60018
+WebDriver BiDi listening on ws://127.0.0.1:60007
+1665237589970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilegPnqjf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60007/devtools/browser/83a72aeb-e5bd-467f-babd-22cdc3e7cfb7
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1665237601919	Marionette	INFO	Stopped listening on port 60018
+1665237667277	geckodriver	INFO	Listening on 127.0.0.1:60155
+1665237670359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60156" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofiledPo80G"
+1665237670739	Marionette	INFO	Marionette enabled
+1665237670744	Marionette	INFO	Listening on port 60167
+Read port: 60167
+WebDriver BiDi listening on ws://127.0.0.1:60156
+1665237670856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofiledPo80G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60156/devtools/browser/939cbd54-b9c9-4f8f-a792-30b1eced9c35
+1665237685551	Marionette	INFO	Stopped listening on port 60167
+1665237839274	geckodriver	INFO	Listening on 127.0.0.1:60283
+1665237842355	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60284" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilePkOnhR"
+1665237842670	Marionette	INFO	Marionette enabled
+1665237842675	Marionette	INFO	Listening on port 60294
+Read port: 60294
+WebDriver BiDi listening on ws://127.0.0.1:60284
+1665237842772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilePkOnhR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60284/devtools/browser/b4496eba-e9da-4b77-a355-80f56d05b1ad
+1665237863509	Marionette	INFO	Stopped listening on port 60294
