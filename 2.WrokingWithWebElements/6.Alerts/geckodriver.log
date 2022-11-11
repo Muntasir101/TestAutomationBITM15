@@ -30,3 +30,13 @@ WebDriver BiDi listening on ws://127.0.0.1:56640
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofileSWBzZM\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:56640/devtools/browser/31a9eb7b-2844-4bc1-af6d-8c8a844da50a
 1666360996888	Marionette	INFO	Stopped listening on port 56650
+1668171386069	geckodriver	INFO	Listening on 127.0.0.1:58843
+1668171389141	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58844" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilerMSRWf"
+1668171389826	Marionette	INFO	Marionette enabled
+1668171389834	Marionette	INFO	Listening on port 58854
+Read port: 58854
+WebDriver BiDi listening on ws://127.0.0.1:58844
+1668171390002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilerMSRWf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58844/devtools/browser/727d8b96-330e-4bb1-86bf-3e0809c9fceb
+1668171434051	Marionette	INFO	Stopped listening on port 58854

@@ -26,6 +26,8 @@ class Alert():
         driver.switch_to.alert.accept()
         time.sleep(5)
 
+        driver.get_screenshot_as_file("E:\\BITM_Online_15\\Screenshot\\new.png")
+
         driver.close()
 
 
