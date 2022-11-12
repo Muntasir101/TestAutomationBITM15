@@ -24,3 +24,11 @@ class LoginTest(unittest.TestCase):
 
             login_page_obj = LoginPage(driver)
             login_page_obj.login_orange(username, password)
+
+            if driver.current_url == "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index":
+                excel_utils.write_data(file, sheet, r, 4, "Login")
+
+            else:
+                excel_utils.write_data(file, sheet, r, 4, "Not Login")
+
+        driver.close()

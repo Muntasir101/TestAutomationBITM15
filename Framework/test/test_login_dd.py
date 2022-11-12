@@ -2,6 +2,7 @@ import unittest
 import time
 from selenium import webdriver
 from Framework.pages.login_page import LoginPage
+from Framework.utils import excel_utils
 
 
 class LoginTest(unittest.TestCase):
@@ -15,6 +16,11 @@ class LoginTest(unittest.TestCase):
         file = "E:\\BITM_Online_15\\Projects\\TestAutomationBITM15\\Framework\\data\\test_data.xlsx"
         sheet = "Sheet1"
 
-        login_page_obj = LoginPage(driver)
-        login_page_obj.login_orange()
+        number_of_rows = excel_utils.get_row_count(file, sheet)
 
+        for r in range(2, number_of_rows + 1):
+            username = excel_utils.read_data(file, sheet, r, 1)
+            password = excel_utils.read_data(file, sheet, r, 2)
+
+            login_page_obj = LoginPage(driver)
+            login_page_obj.login_orange(username, password)
